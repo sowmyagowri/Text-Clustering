@@ -5,7 +5,7 @@ Approach:
 2.	This CSR matrix is then scaled by IDF and normalized by its L2-norm and then converted to a dense ndarray representation.
 3.	This array is then separated into the desired number of clusters using bisecting k-means clustering approach.
 
-[Calinski Harabaz Score] (doi:10.1080/03610926.2011.560741) (Caliński, T., & Harabasz, J. (1974). “A dendrite method for cluster analysis”. Communications in Statistics-theory and Methods 3: 1-27.) has been calculated for the list of clusters for values of k starting from 3 to 21 in steps of 2 for the given dataset.
+[Calinski Harabaz Score] (http://www.tandfonline.com/doi/abs/10.1080/03610927408827101) (Caliński, T., & Harabasz, J. (1974). “A dendrite method for cluster analysis”. Communications in Statistics-theory and Methods 3: 1-27.) has been calculated for the list of clusters for values of k starting from 3 to 21 in steps of 2 for the given dataset.
 
 This metric has been plotted on the y-axis against the values for k on the x-axis
 
