@@ -1,6 +1,6 @@
 # Text-Clustering
 
-Approach:
+## Approach:
 1.	The input data containing 8580 text records in sparse format is first read into a matrix.
 2.	This CSR matrix is then scaled by IDF and normalized by its L2-norm and then converted to a dense ndarray representation.
 3.	This array is then separated into the desired number of clusters using bisecting k-means clustering approach.
