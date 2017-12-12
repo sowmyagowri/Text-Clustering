@@ -1,6 +1,6 @@
 # Text-Clustering
 
-### NMI: 0.6934
+### Normalized Mutual Information (NMI) Score: 0.6934
 
 ## Approach:
 1.	The input data containing 8580 text records in sparse format is first read into a matrix.
